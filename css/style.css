@@ -15,15 +15,15 @@ header {
 }
 
 
-    header div {
-        width: 140px;
-        margin: auto;
-        background-image: linear-gradient(95deg, #3cdde8 0%, #2ee827 50%, #ffb61f 100%);
-        border-radius: 50%;
-        display: flex;
-        padding: 4px;
-        transition: transform .3s;
-    }
+header div {
+    width: 140px;
+    margin: auto;
+    background-image: linear-gradient(95deg, #3cdde8 0%, #2ee827 50%, #ffb61f 100%);
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+    transition: transform .3s;
+}
 
 header div:hover {
     transform: scale(1.15)
@@ -35,7 +35,7 @@ header div img {
 }
 
 body {
-    background-image: url(http://wallup.net/wp-content/uploads/2016/01/75116-triangle-digital_art-rock.jpg);
+    background-image: url(./img/background.jpg);
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;

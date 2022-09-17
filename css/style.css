@@ -118,9 +118,20 @@ section ul li:hover {
 }
 
 .web-list img {
-    border-radius: 4px;
-    width: 32px;
+    border-radius: 5px;
+    width: 36px;
+    height: 36px;
     border: 1px solid #443E54;
+}
+
+.web-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-list li {
+    padding: 0px 12px;
 }
 
 /* animation */
@@ -157,12 +168,12 @@ main section:nth-child(5) {
 from {
     opacity: 0;
     transform: translateY(-30px)
-}
+    }
 
 to {
     opacity: 1;
     transform: translateY(0)
-}
+    }
 
 }
 
@@ -170,12 +181,12 @@ to {
 from {
     opacity: 0;
     transform: translateY(30px)
-}
+    }
 
 to {
     opacity: 1;
     transform: translateY(0)
-}
+    }
 
 }
 

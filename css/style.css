@@ -35,11 +35,7 @@ header div img {
 }
 
 body {
-<<<<<<< HEAD
-    background-image: url(../img/background.jpg);
-=======
-    background-image: url(./img/background.jpg);
->>>>>>> 0e1f444cd9ede318f1af524a17ae9a3163c0c227
+    background-image: url('../img/background.jpg');
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
